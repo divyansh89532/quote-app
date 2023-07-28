@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "app.js",
-    "dev": "node app.js"
+    "dev": "nodemon app.js"
   },
    "engines": {
     "node": ">=14 <15"
@@ -30,6 +30,6 @@
     "mongoose": "^7.4.1"
   },
   "devDependencies": {
-    "node": "^3.0.1"
+    "nodemon": "^3.0.1"
   }
 }
